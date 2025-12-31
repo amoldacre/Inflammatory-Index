@@ -1,13 +1,13 @@
 import { useState } from 'react';
-import { Hero } from './components/Hero';
-import { Navigation } from './components/Navigation';
-import { Food } from './components/Food';
-import { Movement } from './components/Movement';
-import { SkincareAnalyzer } from './components/SkincareAnalyzer';
-import { EnvironmentalFactors } from './components/EnvironmentalFactors';
-import { Lifestyle } from './components/Lifestyle';
-import { ResourceGrid } from './components/ResourceGrid';
-import { Footer } from './components/Footer';
+import { Hero } from './Components/Hero';
+import { Navigation } from './Components/Navigation';
+import { Food } from './Components/Food';
+import { Movement } from './Components/Movement';
+import { SkincareAnalyzer } from './Components/SkincareAnalyzer';
+import { EnvironmentalFactors } from './Components/EnvironmentalFactors';
+import { Lifestyle } from './Components/Lifestyle';
+import { ResourceGrid } from './Components/ResourceGrid';
+import { Footer } from './Components/Footer';
 
 export default function App() {
   const [activeSection, setActiveSection] = useState('home');

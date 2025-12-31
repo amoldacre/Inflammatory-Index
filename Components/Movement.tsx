@@ -1,3 +1,4 @@
+import React from 'react';
 import { Dumbbell, Heart, TrendingUp, AlertTriangle, CheckCircle2, XCircle, Waves, Footprints, Timer, Battery } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 
@@ -434,8 +435,8 @@ export function Movement() {
               importance="Critical - High stress blocks recovery"
               tips={[
                 'Meditation, breathwork, time in nature',
-                'If you're mentally stressed, go easier on workouts',
-                'Your body can't distinguish workout stress from life stress',
+                'If you\'re mentally stressed, go easier on workouts',
+                'Your body can\'t distinguish workout stress from life stress',
                 'Total stress load matters for inflammation',
               ]}
             />
